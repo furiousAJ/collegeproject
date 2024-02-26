@@ -1,0 +1,70 @@
+.adminuserpostion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.adminusercontainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  top: 50%;
+  left: 50%;
+}
+
+.adminuserform-section {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.adminuserform-wrapper {
+  text-align: center;
+}
+
+.adminuserlogo-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.adminuserinput-container {
+  margin-top: 20px;
+}
+
+.adminuserform-group {
+  margin-bottom: 15px;
+}
+
+.adminuserform-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.adminuserform-group input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.adminuserlogin-btn {
+  width: 25%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.adminuserlogin-btn:hover {
+  background-color: #0056b3;
+}
+
+.adminerror-message {
+  color: red;
+  margin-top: 10px;
+}

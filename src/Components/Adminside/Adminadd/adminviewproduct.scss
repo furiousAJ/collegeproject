@@ -1,0 +1,21 @@
+.adminprolist{
+    display: flex;
+    
+    
+    
+    .adminprolistContainer{
+        flex: 6;
+        
+
+    }
+}
+.adminprotop{ -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;}
+
+    .adhead{
+        color: rgba(27, 28, 28, 0.594);
+        margin: 15px 0px 15px 25px;
+    }

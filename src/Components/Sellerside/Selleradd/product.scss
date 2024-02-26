@@ -1,0 +1,26 @@
+.cellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+
+    &.Active{
+    background-color: rgba(0, 128, 0, 0.183);
+    color: green;
+}
+&.pending{
+    background-color: rgba(115, 128, 0, 0.244);
+    color:goldenrod;
+}
+&.Inactive{
+    background-color: rgba(128, 0, 0, 0.162);
+    color: rgb(237, 0, 0);
+}
+}
+.datagrid{
+  display: flex;
+  width: 1300px;
+}
+.imgpro{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+}
